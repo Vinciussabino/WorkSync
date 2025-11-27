@@ -9,12 +9,12 @@ O objetivo do projeto é oferecer uma ferramenta leve, fácil de usar e sem comp
 
 ## Funcionalidades principais
 
-- ✔️ Login e criação de conta  
-- ✔️ Painel com lista de tarefas organizadas  
-- ✔️ Sistema de status (A Fazer, Em Progresso, Concluído)  
-- ✔️ Edição e exclusão de tarefas  
-- ✔️ Interface simples e intuitiva  
-- ✔️ Suporte ao uso colaborativo
+-  Login e criação de conta  
+-  Painel com lista de tarefas organizadas  
+-  Sistema de status (A Fazer, Em Progresso, Concluído)  
+-  Edição e exclusão de tarefas  
+-  Interface simples e intuitiva  
+-  Suporte ao uso colaborativo
 
 ---
 
