@@ -1,60 +1,64 @@
-Funcionalidades principais
+# WorkSync – Gerenciador de Tarefas Colaborativo
 
-Login e criação de conta
+O **WorkSync** é um gerenciador de tarefas simples e colaborativo, criado para facilitar a organização do trabalho em equipe.  
+Ele funciona em um modelo parecido com o **Kanban**, onde as tarefas são organizadas em colunas e movidas conforme avançam.
 
-Painel com lista de tarefas organizadas
+O objetivo do projeto é oferecer uma ferramenta leve, fácil de usar e sem complicações, ideal para pequenos times, grupos de estudo ou uso pessoal.
 
-Sistema de status (como “A Fazer”, “Em Progresso” e “Concluído”)
+---
 
-Edição e exclusão de tarefas
+## Funcionalidades principais
 
-Interface simples, direta e intuitiva
+- ✔️ Login e criação de conta  
+- ✔️ Painel com lista de tarefas organizadas  
+- ✔️ Sistema de status (A Fazer, Em Progresso, Concluído)  
+- ✔️ Edição e exclusão de tarefas  
+- ✔️ Interface simples e intuitiva  
+- ✔️ Suporte ao uso colaborativo
 
-Suporte ao modo colaborativo (várias pessoas usando o mesmo quadro)
+---
 
-🛠️ Tecnologias utilizadas
+## Tecnologias utilizadas
 
-React + Vite
+- **React + Vite**
+- **TypeScript**
+- **TailwindCSS**
+- **ShadCN UI**
+- **Context API** (autenticação e estados globais)
 
-TypeScript
+---
 
-TailwindCSS
+## Estrutura do projeto
 
-ShadCN UI
+- `src/components` – componentes de interface  
+- `src/contexts` – contexto de autenticação  
+- `src/pages` – páginas principais (Login, Dashboard etc.)  
+- `src/hooks` – hooks personalizados  
+- `src/utils` – funções utilitárias
 
-Context API para autenticação e controle global
+---
 
-Estrutura do projeto (resumo)
+##  Como rodar o projeto
 
-src/components → componentes de interface
-
-src/contexts → contexto de autenticação
-
-src/pages → páginas principais (Login, Dashboard etc.)
-
-src/hooks → hooks personalizados
-
-src/utils → funções auxiliares
-
-Como rodar o projeto
+```bash
 # Instalar dependências
 npm install
 
 # Rodar o projeto
 npm run dev
+```
 
-Objetivo do WorkSync
+---
 
-O projeto foi criado com foco em aprendizado e prática de:
+## Objetivo do WorkSync
 
-React moderno
+Este projeto foi criado com foco em aprendizado e prática de:
+- React moderno  
+- Componentização  
+- Gerenciamento de estado  
+- Autenticação básica  
+- Boas práticas de UI  
 
-Gerenciamento de estado
+O WorkSync serve como base para estudos e futuras melhorias no Front-End.
 
-Componentização
-
-Boas práticas de UI
-
-Autenticação básica
-
-Além disso, o WorkSync serve como base para futuras melhorias e para estudo de arquitetura Front-End.
+---
