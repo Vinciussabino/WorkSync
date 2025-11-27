@@ -1,73 +1,60 @@
-# Welcome to your Lovable project
+Funcionalidades principais
 
-## Project info
+Login e criação de conta
 
-**URL**: https://lovable.dev/projects/173afdd5-a035-41de-a32c-67df5058aa88
+Painel com lista de tarefas organizadas
 
-## How can I edit this code?
+Sistema de status (como “A Fazer”, “Em Progresso” e “Concluído”)
 
-There are several ways of editing your application.
+Edição e exclusão de tarefas
 
-**Use Lovable**
+Interface simples, direta e intuitiva
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/173afdd5-a035-41de-a32c-67df5058aa88) and start prompting.
+Suporte ao modo colaborativo (várias pessoas usando o mesmo quadro)
 
-Changes made via Lovable will be committed automatically to this repo.
+🛠️ Tecnologias utilizadas
 
-**Use your preferred IDE**
+React + Vite
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+TypeScript
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+TailwindCSS
 
-Follow these steps:
+ShadCN UI
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+Context API para autenticação e controle global
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+Estrutura do projeto (resumo)
 
-# Step 3: Install the necessary dependencies.
-npm i
+src/components → componentes de interface
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+src/contexts → contexto de autenticação
+
+src/pages → páginas principais (Login, Dashboard etc.)
+
+src/hooks → hooks personalizados
+
+src/utils → funções auxiliares
+
+Como rodar o projeto
+# Instalar dependências
+npm install
+
+# Rodar o projeto
 npm run dev
-```
 
-**Edit a file directly in GitHub**
+Objetivo do WorkSync
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+O projeto foi criado com foco em aprendizado e prática de:
 
-**Use GitHub Codespaces**
+React moderno
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Gerenciamento de estado
 
-## What technologies are used for this project?
+Componentização
 
-This project is built with:
+Boas práticas de UI
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Autenticação básica
 
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/173afdd5-a035-41de-a32c-67df5058aa88) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+Além disso, o WorkSync serve como base para futuras melhorias e para estudo de arquitetura Front-End.
